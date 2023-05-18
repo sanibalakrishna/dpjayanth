@@ -1,0 +1,183 @@
+.width-min {
+    width: 0px;
+    left: 0px;
+}
+
+.width-normal {
+    width: 280px;
+}
+
+.control-img {
+    width: 30px;
+    left: 20px;
+}
+
+.fullnav {
+    height: 94vh;
+}
+
+.anime {
+    padding-left: 4px;
+    transition: all ease 0.3s;
+}
+
+.custom {
+    background-color: #04293A;
+    color: #F0F0F0;
+}
+.custom-icon{
+    color: #FEFBE9;
+}
+
+svg {
+    color: #f9f9f9;
+}
+
+.marLeft {
+    margin-left: -500px;
+    background-color: #3e3e41;
+    width: 360px;
+    height: 36px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.newtrans {
+    transition: all ease-in 0.2s;
+}
+
+.new-btn:hover{
+    background-color: #515160;
+    cursor: pointer;
+}
+.newcur{
+    margin-left: 1em;
+    cursor: pointer;
+}
+.custon-form-nav{
+    margin-top: 0.8em;
+    cursor: pointer;
+    margin: 0.8em 1.2em 0px 0px;
+}
+
+.custon-topic-nav{
+    margin-top: -3px;
+    margin:-3px 1.2em 0px 0px;
+    cursor: pointer;
+}
+
+/* a.active{
+    background-color: #3e3e41;
+    cursor: pointer;
+} */
+/* .image{
+    background-image: url('../assets/sebastian-marx-D2otAuiSGX4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.custom-padding{
+    padding: 1em;
+}
+
+.spinner {
+    width: 56px;
+    height: 56px;
+    display: grid;
+    border: 4.5px solid black;
+    border-radius: 50%;
+    border-color: #dbdcef black;
+    animation: spinner-e04l1k 1s infinite linear;
+    position: absolute;
+    top: 46%;
+    left: 54%;
+  }
+  
+  .spinner::before,
+  .spinner::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 2.2px;
+    border: inherit;
+    border-radius: 50%;
+  }
+  
+  .spinner::before {
+    border-color: #474bff #0000;
+    animation: inherit;
+    animation-duration: 0.5s;
+    animation-direction: reverse;
+  }
+  
+  .spinner::after {
+    margin: 8.9px;
+  }
+  
+  @keyframes spinner-e04l1k {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.accordionContainer{
+    max-width: 30rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+    color: rgb(9, 11, 79);
+    transition: 0.6s ease-in-out;
+}
+.accordion{
+    border-radius: 6px;
+    width: 100%;
+    margin: 1em 0em 1em 0em;
+}
+.accordionHeading{
+    padding: 1rem;
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.accordionHeading > h3{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.addIcon{
+    transform-origin: center;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+.accordion:nth-child(n){
+    background-color: #e1e1e1;
+    border-left: 4px solid #7286D3;
+}
+
+.accordionContent{
+    padding:10px;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+}
+
